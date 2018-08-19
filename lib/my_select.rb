@@ -6,7 +6,7 @@ def my_select(collection)
     if yield(collection[count])
     newCollection << yield(collection[count])
     end 
-    count++
+    count += 1 
   end
   newCollection
 end
